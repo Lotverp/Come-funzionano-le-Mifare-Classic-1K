@@ -91,7 +91,7 @@ Block 63: FF FF FF FF FF FF FF 07 80 69 FF FF FF FF FF FF
 ## 🏗️ Struttura della MIFARE Classic 1K
 
 - 📂 **Settori**:
-	- Il fliper non ce lo mostra direttamente ma abbiamo:
+	- Il flipper non ce lo mostra direttamente ma abbiamo:
 	- 16 settori, ognuno composto da 4 blocchi.
 	
 	- **Ogni settore ha**:
