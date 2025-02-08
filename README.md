@@ -124,7 +124,7 @@ Block 0: 4E 21 3B 16 42 08 04 00 62 63 64 65 66 67 68 69
 - 🆔 **Byte 0-3**: `4E 21 3B 16` → **UID** (Unique Identifier) del tag.
 	- L' UID è un identificatore univoco assegnato a un dispositivo o a un oggetto per **distinguerlo dagli altri**.
 
-- ✅ **Byte 4**: `42` → [**BCC**](https://github.com/Lotverp/Come-funzionano-le-Mifare-Classic-1K/blob/main/BCC.md) (Block Check Character), [checksum](https://github.com/Lotverp/Come-funzionano-le-Mifare-Classic-1K/blob/main/checksum.md) per l'UID.
+- ✅ **Byte 4**: `42` → [**BCC**](https://github.com/Lotverp/Come-funzionano-le-Mifare-Classic-1K/blob/main/BCC.md) (Block Check Character), [checksum](https://github.com/Lotverp/Come-funzionano-le-Mifare-Classic-1K/blob/main/Checksum.md) per l'UID.
 
 - 🛠️ **Byte 5-6**: `08 04` → Dati per il sistema ([SAK, ATQA](https://github.com/Lotverp/Come-funzionano-le-Mifare-Classic-1K/blob/main/sak-atqa.md)).
 
