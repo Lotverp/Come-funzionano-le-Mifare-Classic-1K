@@ -108,7 +108,7 @@ Block 63: FF FF FF FF FF FF FF 07 80 69 FF FF FF FF FF FF
 
   
 
-## 📊 Analizziamo il Dump
+## 🗃️ Analizziamo i vari settori:
 
   
 
