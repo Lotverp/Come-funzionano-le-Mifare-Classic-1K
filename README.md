@@ -177,11 +177,11 @@ Block 3: C1 52 67 B5 EB 39 FF 07 80 69 3E AD 98 4A 14 C6
 ```
 
 - Le schede **MIFARE Classic** usano un sistema di accesso basato su un [sistema di autenticazione a 2 chiavi](https://github.com/Lotverp/Come-funzionano-le-Mifare-Classic-1K/blob/main/chiave%20a-b.md), dove:
-	- 🔑 **Key A**: `C1 52 67 B5 EB 39`
+	- 🔑 **Key A**: `C1 52 67 B5 EB 39` (byte da 0 a 5)
 
-	- 🔒 **Access Bits**: `FF 07 80 69`
+	- 🔒 **Access Bits**: `FF 07 80 69` (byte 6-7-8-9)
 
-	- 🔑 **Key B**: `3E AD 98 4A 14 C6`
+	- 🔑 **Key B**: `3E AD 98 4A 14 C6` (Ultimi 6 byte)
 
   
 
