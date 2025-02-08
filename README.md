@@ -1,3 +1,4 @@
+
 # ❓ Come funziona una **Mifare Classic 1K?**
 
 ## 🔍**Analizziamolo**  
@@ -95,7 +96,7 @@ Block 63: FF FF FF FF FF FF FF 07 80 69 FF FF FF FF FF FF
 	
 	- **Ogni settore ha**:
 	- 3 blocchi per i **dati** (es. blocchi 0-2, 4-6...)
-	- 1 blocco **trailer** che contiene le chiavi di accesso e i permessi.
+	- 1 blocco [**trailer**](https://github.com/Lotverp/Come-funzionano-le-Mifare-Classic-1K/blob/main/chiave%20a-b.md) che contiene le chiavi di accesso e i permessi.
 
 - ⛓️ **Blocchi**:
 	- Ognuno dei 64 blocchi, **è composto da 16 byte** (per capirci sono le coppie di numeri)
@@ -125,10 +126,9 @@ Block 0: 4E 21 3B 16 42 08 04 00 62 63 64 65 66 67 68 69
 - 🆔 **Byte 0-3**: `4E 21 3B 16` → **UID** (Unique Identifier) del tag.
 	- L' UID è un identificatore univoco assegnato a un dispositivo o a un oggetto per **distinguerlo dagli altri**.
 
-- ✅ **Byte 4**: `42` → **BCC** (Block Check Character), checksum per l'UID.
--aggiungere link
+- ✅ **Byte 4**: `42` → [**BCC**](https://github.com/Lotverp/Come-funzionano-le-Mifare-Classic-1K/blob/main/BCC) (Block Check Character), [checksum](https://github.com/Lotverp/Come-funzionano-le-Mifare-Classic-1K/blob/main/Checksum) per l'UID.
 
-- 🛠️ **Byte 5-6**: `08 04` → Dati per il sistema (SAK, ATQA).
+- 🛠️ **Byte 5-6**: `08 04` → Dati per il sistema ([SAK, ATQA](https://github.com/Lotverp/Come-funzionano-le-Mifare-Classic-1K/blob/main/sak-atqa.md)).
 
 - 📄 **Byte 7-15**: `00 62 63 64 65 66 67 68 69` → Dati aggiuntivi.
 
@@ -178,7 +178,7 @@ Block 3: C1 52 67 B5 EB 39 FF 07 80 69 3E AD 98 4A 14 C6
 
 ```
 
-- Le schede **MIFARE Classic** usano un sistema di accesso basato su un sistema di autenticazione a 2 chiavi, dove:
+- Le schede **MIFARE Classic** usano un sistema di accesso basato su un [sistema di autenticazione a 2 chiavi](https://github.com/Lotverp/Come-funzionano-le-Mifare-Classic-1K/blob/main/chiave%20a-b.md), dove:
 	- 🔑 **Key A**: `C1 52 67 B5 EB 39`
 
 	- 🔒 **Access Bits**: `FF 07 80 69`
