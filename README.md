@@ -99,9 +99,7 @@ Block 63: FF FF FF FF FF FF FF 07 80 69 FF FF FF FF FF FF
 	- 1 blocco [**trailer**](https://github.com/Lotverp/Come-funzionano-le-Mifare-Classic-1K/blob/main/chiave%20a-b.md) che contiene le chiavi di accesso e i permessi.
 
 - ⛓️ **Blocchi**:
-	- Ognuno dei 64 blocchi, **è composto da 16 byte** (per capirci sono le coppie di numeri)
-
-- 💾 **Byte**: E' l'unità fondamentale di **memoria e archiviazione** nei computer e nei sistemi digitali.
+	- Ognuno dei 64 blocchi, **è composto da 16 byte**
 
   
 
