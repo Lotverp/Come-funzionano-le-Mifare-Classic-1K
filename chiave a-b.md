@@ -158,15 +158,12 @@ Dove:
 
   
 
-| Accesso | Solo Key A | Solo Key B | Nessuna Chiave |
-
-|---------|------------|------------|----------------|
-
+| Accesso  | Solo Key A |  Solo Key B |Nessuna Chiave |
+|--|--|--|--|
 | **Leggere Dati** | ✅ Sì | ✅ Sì | ❌ No |
-
 | **Scrivere Dati** | ❌ No | ✅ Sì | ❌ No |
-
 | **Cambiare Chiavi** | ❌ No | ✅ Sì | ❌ No |
+
 
   
 
