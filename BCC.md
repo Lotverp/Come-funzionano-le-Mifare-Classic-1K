@@ -48,7 +48,7 @@ Qui:
 
 ## 🔢 **Come si calcola il BCC?**
 
-Il **BCC** è calcolato facendo un'operazione **XOR** tra tutti i byte dell'UID.
+Il **BCC** è calcolato facendo un'operazione [**XOR**](https://github.com/Lotverp/Come-funzionano-le-Mifare-Classic-1K/blob/main/xor.md) tra tutti i byte dell'UID.
 
   
 
