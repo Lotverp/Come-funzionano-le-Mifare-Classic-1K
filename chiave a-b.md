@@ -5,6 +5,7 @@
 ## 📌 Introduzione
 
 Le schede **MIFARE Classic** usano un sistema di accesso basato su **chiavi segrete** e **bit di accesso**.
+
 Ogni settore ha un **blocco trailer** che controlla la lettura, scrittura e autenticazione.
 
   
