@@ -15,16 +15,6 @@ In altre parole:
 | 1 | 0 |  1   | Gli ingressi sono diversi ✅ |
 | 1 | 1 |  0   | Entrambi gli ingressi sono uguali ❌ |
 
-## 🏗️ XOR nei Circuiti Logici
-Il simbolo XOR in elettronica è rappresentato così:
-
-```
-      A ----|             | XOR |---- A ⊕ B
-      B ----|/
-```
-
-Nei circuiti digitali, l'operatore XOR può essere implementato con **AND**, **OR** e **NOT**:
-
 ### 🛠 Costruzione di XOR con altri operatori logici:
 L'operatore XOR può essere espresso come:
 \[
