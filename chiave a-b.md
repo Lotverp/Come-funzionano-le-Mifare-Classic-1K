@@ -158,11 +158,11 @@ Dove:
 
   
 
-| Accesso  | Solo Key A |  Solo Key B |0 Chiavi utilizzate |
-|--|--|--|--|
-| **Leggere Dati** | ✅ Sì | ✅ Sì | ❌ No |
-| **Scrivere Dati** | ❌ No | ✅ Sì | ❌ No |
-| **Cambiare Chiavi** | ❌ No | ✅ Sì | ❌ No |
+| Accesso  | Solo Key A |  Solo Key B |
+|--|--|--|
+| **Leggere Dati** | ✅ Sì | ✅ Sì |
+| **Scrivere Dati** | ❌ No | ✅ Sì |
+| **Cambiare Chiavi** | ❌ No | ✅ Sì |
 
 
   
