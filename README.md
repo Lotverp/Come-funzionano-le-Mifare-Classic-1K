@@ -1,4 +1,4 @@
-#❗ANCORA IN LAVORAZIONE❗
+# ❗ANCORA IN LAVORAZIONE❗
 
 # ❓ Come funziona una **Mifare Classic 1K?**
 
