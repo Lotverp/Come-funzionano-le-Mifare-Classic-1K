@@ -207,4 +207,4 @@ Block 3: C1 52 67 B5 EB 39 FF 07 80 69 3E AD 98 4A 14 C6
 4. 📊 **Dati Utente**: Solo settori 0 e 1 contengono dati, gli altri sono vuoti.
 
 
-little edian big edian
+little edian big edian, byte scambiati
